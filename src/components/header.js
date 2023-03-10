@@ -1,14 +1,8 @@
 import React from "react";
 
-function Footer () {
-    return (
-        <div>
-            <footer>
-                <a href="https://github.com/anafede"></a>
-                <a href="mailto: ana.fede@uconn.edu"></a>
-            </footer>
-        </div>
-    )
+function Header(){
+    return(
+        <h1> Ana Fede</h1>
+    );
 }
-
-export default Footer;
+export default Header;
